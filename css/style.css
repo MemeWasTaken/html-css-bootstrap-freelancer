@@ -3,6 +3,9 @@
     --jumbo-height: 588px;
     --main-top: 855px;
     --main-bottom: 491px;
+    --footer-top: 685px;
+    --footer: 231px;
+    --footer-bottom: 110px;
 }
 * {color: #FFFFFF;}
 
@@ -35,10 +38,24 @@
     height: var(--main-top);
 }
 .height-main-top {height: var(--main-top);}
-.port {color: #000000;}
+.txt-black {color: #000000;}
 
 .container-fluid.main-bottom {
     background-color: #1ABC9C;
     height: var(--main-bottom);
 }
 .height-main-bottom {height: var(--main-bottom);}
+
+.container-fluid.footer-top {
+    background-color: #FFFFFF;
+    height: var(--footer-top);
+}
+.height-footer-top {height: var(--footer-top);}
+.line-height-bigger {line-height: 4em;}
+.row.my-gx-5 {--bs-gutter-x: -15rem;}
+
+.container-fluid.footer {
+    background-color: #3A546D;
+    height: var(--footer);
+}
+.height-footer {height: var(--footer);}
