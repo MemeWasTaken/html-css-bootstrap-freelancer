@@ -11,9 +11,9 @@
 
 /* Header */
 .container-fluid.header {
+    background-color: #2C3E50;
     height: var(--header-height);
     line-height: var(--header-height);
-    background-color: #2C3E50;
 }
 /* /Header */
 
@@ -24,9 +24,10 @@
     height: var(--jumbo-height);
 }
 .square-img {
+    background-color: springgreen;
     width: 300px;
     height: 300px;
-    background-color: springgreen;
+    border-radius: 150px;
 }
 /* /Jumbotron */
 
@@ -38,9 +39,9 @@
     height: var(--main-top);
 }
 .rect-img {
+    background-color: crimson;
     width: 360px;
     height: 260px;
-    background-color: crimson;
     border-radius: 9px;
 }
 /* /Main Top */
@@ -77,3 +78,11 @@
 }
 .height-footer-bottom {height: var(--footer-bottom);}
 /* /Footer Bottom */
+
+@media screen and (min-width: 768px) {
+    :root {
+        --main-top: 1351px;
+        --main-bottom: 547px;
+    }
+}
+
