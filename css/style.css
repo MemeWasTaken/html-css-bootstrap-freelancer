@@ -1,9 +1,38 @@
-* {
-    color: #FFFFFF;
+:root {
+    --header-height: 90px;
+    --jumbo-height: 588px;
+    --main-top: 855px;
 }
+* {color: #FFFFFF;}
+
 .container-fluid.header {
-    height: 90px;
-    line-height: 90px;
+    height: var(--header-height);
+    line-height: var(--header-height);
     background-color: #2C3E50;
 }
+
+.container-fluid.jumbo {
+    background-color: #1ABC9C;
+    height: var(--jumbo-height);
+}
+
+.square-img {
+    width: 300px;
+    height: 300px;
+    background-color: springgreen;
+}
+.rect-img {
+    width: 360px;
+    height: 260px;
+    background-color: crimson;
+    border-radius: 9px;
+}
+
+.height-jumbo {height: var(--jumbo-height);}
+.container-fluid.main-top {
+    background-color: #FFFFFF;
+    height: var(--main-top);
+}
+.height-main-top {height: var(--main-top);}
+.port {color: #000000;}
 
