@@ -2,6 +2,7 @@
     --header-height: 90px;
     --jumbo-height: 588px;
     --main-top: 855px;
+    --main-bottom: 491px;
 }
 * {color: #FFFFFF;}
 
@@ -36,3 +37,8 @@
 .height-main-top {height: var(--main-top);}
 .port {color: #000000;}
 
+.container-fluid.main-bottom {
+    background-color: #1ABC9C;
+    height: var(--main-bottom);
+}
+.height-main-bottom {height: var(--main-bottom);}
