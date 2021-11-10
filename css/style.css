@@ -20,8 +20,8 @@ html {
 .margin-0 {
     margin: 0;
 }
-.my-fs-2x {
-    font-size: 400%;
+.my-fs-35x {
+    font-size: 350%;
 }
 .avatar {
     width: 50%;
@@ -40,20 +40,50 @@ html {
     height: 300px;
     border-radius: 150px;
 }
+.horr{
+    background-color: #FFFFFF;
+    display: inline-block;
+    border-radius: 2px;
+    width: 35%;
+    height: 5px;
+    margin: auto 0;
+}
+.horr-dark{
+    background-color: #2C3E50;
+    display: inline-block;
+    border-radius: 2px;
+    width: 135%;
+    height: 5px;
+    margin: auto 0;
+}
+.fa-star::before {
+    font-size: 2em;
+}
+.fa-star.dark::before {
+    color: #2C3E50;
+}
+.skills {
+    font-size: 1.5em;
+}
 /* /Jumbotron */
 
 /* Main Top */
-.txt-black {color: #000000;}
-.height-main-top {height: var(--main-top);}
+.txt-dark {color: #333333;}
+/* .height-main-top {height: var(--main-top);} */
 .backg-container.main-top {
     background-color: #FFFFFF;
-    height: var(--main-top);
+    /* height: var(--main-top); */
 }
 .rect-img {
     background-color: crimson;
     width: 360px;
     height: 260px;
     border-radius: 9px;
+}
+.hr {
+    height: 3px;
+    background-color: #FFFFFF;
+    display: inline-block;
 }
 /* /Main Top */
 
@@ -94,8 +124,8 @@ html {
 @media screen and (min-width: 576px) {
     :root {
         --header-height: 74px;
-        --jumbo-height: 407px;
-        --main-top: 2073px;
+        /* --jumbo-height: 407px; */
+        /* --main-top: 2073px; */
         --main-bottom: 583px;
         --footer-top: 494px;
         --footer: 374px;
@@ -129,8 +159,8 @@ html {
 @media screen and (min-width: 992px) {
     :root {
         --header-height: 90px;
-        --jumbo-height: 588px;
-        --main-top: 855px;
+        /* --jumbo-height: 588px; */
+        /* --main-top: 855px; */
         --main-bottom: 491px;
         --footer-top: 685px;
         --footer: 231px;
