@@ -18,19 +18,19 @@
 
     <body>
         <!-- Header Section -->
-        <div class="backg-container header">
+        <div class="backg-container header fixed-top">
             <header class="container">
                 <div class="row justify-content-between align-items-center pt-4 pb-4">
-                    <h3 class="col-sm-3 col-md-3 col-lg-5 text-uppercase fw-bold">
+                    <h3 class="col-sm-6 col-md-5 col-lg-5 text-uppercase fw-bold txt-bright">
                         Start Bootstrap
                     </h3>
-                    <div class="col-sm-3 col-md-3 col-lg-5 offset-sm-6 offset-md-6 offset-lg-2 d-flex justify-content-end">
-                        <ul class="margin-0 text-uppercase list-inline">
-                            <li class="list-inline-item"> <a class="a-none fw-bolder" href=""> Portfolio</a> </li>
-                            <li class="list-inline-item"> <a class="a-none fw-bolder" href="">About</a> </li>
-                            <li class="list-inline-item"> <a class="a-none fw-bolder" href="">Contact</a> </li>
+                    <div class="col-sm-5 col-md-5 col-lg-5 offset-sm-1 offset-md-2 offset-lg-2 d-flex justify-content-end">
+                        <ul class="margin-0 text-uppercase list-inline menu-header">
+                            <li class="list-inline-item"> <a class="a-none fw-bolder txt-bright" href=""> Portfolio</a> </li>
+                            <li class="list-inline-item"> <a class="a-none fw-bolder txt-bright" href="">About</a> </li>
+                            <li class="list-inline-item"> <a class="a-none fw-bolder txt-bright" href="">Contact</a> </li>
                         </ul>
-                        <div class="menu-header-icon"></div>
+                        <div class="menu-header-icon text-center"> <a class="a-none btn btn-outline-light" href=""> <i class="fas fa-bars"></i> </a> </div>
                     </div>
                 </div>
             </header>
@@ -38,13 +38,13 @@
         <!-- /Header Section -->
 
         <!-- Jumbo Section -->
-        <div class="backg-container jumbo">
+        <div class="backg-container jumbo pad-t-due-header">
             <div class="container">
                 <div class="row justify-content-center pt-5 pb-5">
                     <div class="col-sm-12 col-md-12 col-lg-12 d-flex height-jumbo justify-content-center align-items-center">
                         <div class="text-center">
                             <img class="avatar" src="img/avatar.svg" alt="">
-                            <h1 class="text-center text-uppercase fw-bold mt-4 my-fs-35x"> Start Bootstrap </h1> 
+                            <h1 class="text-center text-uppercase fw-bold mt-4 my-fs-35x txt-bright"> Start Bootstrap </h1> 
                         </div>
                     </div>
                     <div class="col-lg-5 mt-3 mb-2 d-flex justify-content-center">
@@ -52,7 +52,7 @@
                         <i class="fas fa-star ms-3 me-3"></i>
                         <span class="horr"></span>
                     </div>
-                    <p class="col-lg-10 text-uppercase text-center skills"> Graphic artist - Web designer - Illustrator</p>
+                    <p class="col-lg-10 col-sm-12 text-uppercase text-center skills txt-bright"> Graphic artist - Web designer - Illustrator</p>
                 </div>
             </div>
         </div>
@@ -75,23 +75,36 @@
                     </div>
                 </div>
                     <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-sm-3 g-md-3 g-lg-3 justify-content-center pb-5">
-                        <div class="col d-flex justify-content-center">
-                            <img src="img/cabin.png" alt="" class="rect-img">
+                        
+                        <div class="img-hover">
+                            <div class="col d-flex justify-content-center">
+                                <img src="img/cabin.png" alt="" class="rect-img">
+                            </div>
                         </div>
-                        <div class="col d-flex justify-content-center">
-                            <img src="img/cake.png" alt="" class="rect-img">
+                        <div class="img-hover">
+                            <div class="col d-flex justify-content-center">
+                                <img src="img/cake.png" alt="" class="rect-img">
+                            </div>
                         </div>
-                        <div class="col d-flex justify-content-center">
-                            <img src="img/circus.png" alt="" class="rect-img">
+                        <div class="img-hover">
+                            <div class="col d-flex justify-content-center">
+                                <img src="img/circus.png" alt="" class="rect-img">
+                            </div>
                         </div>
-                        <div class="col d-flex justify-content-center">
-                            <img src="img/game.png" alt="" class="rect-img">
+                        <div class="img-hover">
+                            <div class="col d-flex justify-content-center">
+                                <img src="img/game.png" alt="" class="rect-img">
+                            </div>
                         </div>
-                        <div class="col d-flex justify-content-center">
-                            <img src="img/safe.png" alt="" class="rect-img">
+                        <div class="img-hover">
+                            <div class="col d-flex justify-content-center">
+                                <img src="img/safe.png" alt="" class="rect-img">
+                            </div>
                         </div>
-                        <div class="col d-flex justify-content-center">
-                            <img src="img/submarine.png" alt="" class="rect-img">
+                        <div class="img-hover">
+                            <div class="col d-flex justify-content-center">
+                                <img src="img/submarine.png" alt="" class="rect-img">
+                            </div>
                         </div>
                     </div>
             </div>
@@ -104,7 +117,7 @@
                 <div class="row justify-content-center pt-5 pb-5">
                     <div class="col-sm-12 col-md-12 col-lg-12 d-flex height-jumbo justify-content-center align-items-center">
                         <div class="text-center">
-                            <h1 class="text-center text-uppercase fw-bold mt-4 my-fs-35x"> About </h1> 
+                            <h1 class="text-center text-uppercase fw-bold mt-4 my-fs-35x txt-bright"> About </h1> 
                         </div>
                     </div>
                     <div class="col-lg-5 mt-3 mb-2 d-flex justify-content-center">
@@ -114,15 +127,19 @@
                     </div>
                 </div>
                 <div class="row justify-content-center mb-4">
-                    <div class="col-sm-7 col-md-5 col-lg-5">
+                    <div class="col-sm-7 col-md-5 col-lg-5 txt-bright">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni autem repellendus assumenda nam, quam possimus distinctio labore pariatur quisquam vero, dolorem sapiente modi laboriosam adipisci asperiores, deleniti vel similique. Lorem ipsum dolor sit amet.
                     </div>
-                    <div class="col-sm-7 col-md-5 col-lg-5">
+                    <div class="col-sm-7 col-md-5 col-lg-5 pt-sm-4 txt-bright">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, aperiam possimus distinctio dolorum corporis, quod deleniti facere ipsum repellat recusandae ipsa suscipit dolorem. Dolore ullam nisi quae vitae voluptatem numquam. Lorem ipsum.
                     </div>
                 </div>
-                <div class="row justify-content-center pb-lg-5">
-                    <div class="col-sm-2 col-md-1 col-lg-2 text-center "> <a class="a-none btn btn-outline-light" href=""> <i class="fas fa-download"></i> Download </a> </div>
+                <div class="row justify-content-center pb-5">
+                    <div class="col-sm-4 col-md-3 col-lg-2 text-center ">
+                        <a class="a-none btn btn-outline-light txt-bright" href="">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -130,7 +147,7 @@
         <!-- /Main Section -->
 
         <!-- Footer Top -->
-        <div class="backg-container footer-top">
+        <div class="backg-container footer-top mb-5">
             <footer class="container">
                 <div class="row justify-content-center pt-5 pb-5">
                     <div class="col-sm-12 col-md-12 col-lg-12 d-flex height-jumbo justify-content-center align-items-center">
@@ -146,17 +163,26 @@
                 </div>
                 <div class="row justify-content-center align-items-center height-footer-top">
                     <div class="col-sm-10 col-md-10 col-lg-10">
-                        <ul>
-                            <li class="txt-dark line-height-bigger">Lorem</li>
-                            <li class="txt-dark line-height-bigger">Ipsum</li>
-                            <li class="txt-dark line-height-bigger">Ipsum</li>
-                            <li class="txt-dark line-height-bigger">Lorem</li>
-                        </ul>
+                        <form action="">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Mario Rossi" id="Name"></textarea>
+                                <label for="Name"> Name </label>
+                                </div>
+                                <div class="form-floating">
+                                <textarea class="form-control" placeholder="mariorossi@mail.com" id="Email"></textarea>
+                                <label for="Email">Email Adress</label>
+                                </div>
+                                <div class="form-floating">
+                                <textarea class="form-control" placeholder="+39 //" id="PNum"></textarea>
+                                <label for="PNum">Phone Number</label>
+                                </div>
+                                <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="Msg" style="height: 100px"></textarea>
+                                <label for="Msg">Message</label>
+                                </div>
+                                <button type="button" class="btn btn-success mt-3">Send</button>
+                        </form>
                     </div>
-                        <div class="col-sm-1 col-md-1 col-lg-1 offset-sm-1 offset-md-1 offset-lg-1 txt-dark">
-                        Send  
-                    </div>
-                </div>
                 </div>
             </footer>
         </div>
@@ -165,18 +191,21 @@
         <!-- Footer Section -->
         <div class="backg-container footer">
             <footer class="container">
-                <div class="row justify-content-center align-items-center height-footer">
-                    <div class="col-sm-12 col text-center">
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="row justify-content-center align-items-center height-footer pt-5 pb-5">
+                    <div class="col-sm-12 col-md-4 col-lg-4 text-center txt-bright">
+                        <h3 class="text-uppercase">Location</h3>
+                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
-                    <div class="col-sm-12 col text-center">
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="col-sm-12 col-md-4 col-lg-4 pt-sm-4 pb-sm-4 text-center txt-bright">
+                        <h3 class="text-uppercase">Around the Web</h3>
+                        <a class="a-none fw-bolder txt-bright btn btn-outline-light circle" href=""> <i class="fab fa-facebook-f fa-fw"></i> </a>
+                        <a class="a-none fw-bolder txt-bright btn btn-outline-light circle" href=""> <i class="fab fa-google-plus-g fa-fw"></i> </a>
+                        <a class="a-none fw-bolder txt-bright btn btn-outline-light circle" href=""> <i class="fab fa-twitter fa-fw"></i> </a>
+                        <a class="a-none fw-bolder txt-bright btn btn-outline-light circle" href=""> <i class="fab fab fa-linkedin-in fa-fw"></i> </a>
                     </div>
-                    <div class="col-sm-12 col text-center">
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="col-sm-12 col-md-4 col-lg-4 text-center txt-bright">
+                        <h3 class="text-uppercase">About Freelancer</h3>
+                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur <a class="a-none txt-link">adipisicing elit.</a></p>
                     </div>
                 </div>
             </footer>
@@ -188,7 +217,7 @@
             <div class="container">
                 <div class="row justify-content-center align-items-center height-footer-bottom">
                     <div class="col">
-                        <p class="text-center"> Lorem ipsum dolor sit amet </p>
+                        <p class="text-center txt-bright text-center pt-5 pb-3 FS-4"> Lorem ipsum <i class="far fa-copyright"></i> dolor sit amet </p>
                     </div>
                 </div>
             </div>
@@ -197,25 +226,3 @@
     </body>
 
 </html>
-
-
-<!-- <div class="row justify-content-center align-items-center height-main-bottom">
-    <div class="col-sm-12 col-md-12 col-lg-12">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-sm-12 col-md-4 col-lg-3">
-                <h1 class="text-center">Lorem Ipsum</h1>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-sm-7 col-md-5 col-lg-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni autem repellendus assumenda nam, quam possimus distinctio labore pariatur quisquam vero, dolorem sapiente modi laboriosam adipisci asperiores, deleniti vel similique. Lorem ipsum dolor sit amet.
-            </div>
-            <div class="col-sm-7 col-md-5 col-lg-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, aperiam possimus distinctio dolorum corporis, quod deleniti facere ipsum repellat recusandae ipsa suscipit dolorem. Dolore ullam nisi quae vitae voluptatem numquam. Lorem ipsum.
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-sm-2 col-md-1 col-lg-1">download</div>
-        </div>
-    </div>
-</div> -->
