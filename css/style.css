@@ -52,7 +52,7 @@ html {
     background-color: #2C3E50;
     display: inline-block;
     border-radius: 2px;
-    width: 135%;
+    width: 35%;
     height: 5px;
     margin: auto 0;
 }
@@ -88,11 +88,14 @@ html {
 /* /Main Top */
 
 /* Main Bottom */
-.height-main-bottom {height: var(--main-bottom);}
+/* .height-main-bottom {height: var(--main-bottom);} */
 .backg-container.main-bottom {
     background-color: #1ABC9C;
-    height: var(--main-bottom);
+    /* height: var(--main-bottom); */
 }
+/* .fa-download::before {
+    display: inline-block;
+} */
 /* /Main Bottom */
 
 /* Footer Top */
